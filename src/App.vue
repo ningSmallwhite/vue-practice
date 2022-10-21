@@ -1,8 +1,11 @@
 <template>
   <div id="app">
     <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/about">About</router-link> |
+      <router-link to="/">VforView</router-link> |
+      <router-link to="/onclick">OnclickView</router-link> |
+      <router-link to="/ParentComponent">ParentComponent</router-link> |
+      <router-link to="/PropsView">PropsView</router-link> |
     </nav>
     <router-view/>
   </div>
