@@ -33,7 +33,11 @@ const routes = [
     name: 'PropsView',
     component: () => import('../views/PropsView.vue')
   },
-  
+  {
+    path: '/SlotView',
+    name: 'SlotView',
+    component: () => import('../views/SlotView.vue')
+  },
 ]
 
 const router = new VueRouter({
