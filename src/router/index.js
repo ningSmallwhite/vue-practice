@@ -38,6 +38,16 @@ const routes = [
     name: 'SlotView',
     component: () => import('../views/SlotView.vue')
   },
+  {
+    path: '/TransitionView',
+    name: 'TransitionView',
+    component: () => import('../views/TransitionView.vue')
+  },
+  {
+    path: '/ApiView',
+    name: 'ApiView',
+    component: () => import('../views/ApiView.vue')
+  },
 ]
 
 const router = new VueRouter({

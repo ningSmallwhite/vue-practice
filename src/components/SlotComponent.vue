@@ -15,9 +15,12 @@ export default {
   components:{
     
   },
+  created(){
+    console.log(this.$parent.content,"父组件data中的数据")
+  },
   data() {
    return {
-   
+    username: "子"
    }
   },
   methods: {

@@ -7,6 +7,8 @@
       <router-link to="/ParentComponent">ParentComponent</router-link> |
       <router-link to="/PropsView">PropsView</router-link> | 
       <router-link to="/SlotView">SlotView</router-link> | 
+      <router-link to="/TransitionView">TransitionView</router-link> | 
+      <router-link to="/ApiView">ApiView</router-link> | 
     </nav>
     <router-view/>
   </div>
